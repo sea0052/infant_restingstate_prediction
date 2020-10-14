@@ -4,7 +4,7 @@ function [Noutlier, meanmotion,sdmotion,outind_all] = FrameDisplacement2_surroun
 % the associated tmap for a given threshold (th).
 % motion is assumed to contain translation and rotation regressors.
 % format considers two possible values: SPM or FSL. Default value is FSL.
-% Created by Silvina Ferradal.
+% Created by Silvina Ferradal (silferra@iu.edu)
 % Modified by Xi Yu to furhter identify/include one proceeding and two following scans of the image with excessive motion
 
 if strcmp(format,'SPM') % SPM
